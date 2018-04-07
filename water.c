@@ -6,11 +6,13 @@
 
 int main(void)
 
-
-int minutes = get_int();
+int minutes = get_int();  //ensures that the users puts in an interger (positive, negative, 0. Otherwise it will prompt the user to retry)
 
 //step 1: prompt use to put in number of minutes
 //step 2: validate whether to the input is a number or alphabet
 //step 3: convert the number of minutes to bottles
 //step 4: print bottles
+
+
+
 
