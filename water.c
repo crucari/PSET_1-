@@ -2,11 +2,31 @@
 // and then prints the equivalent number of bottles of water (as an integer)
 
 #include <stdio.h>
-#include <cs50.h>
-
+#include <cs50.h>  //nessesary for us to use CS50 library function
 int main(void)
+{
 
-int minutes = get_int();  //ensures that the users puts in an interger (positive, negative, 0. Otherwise it will prompt the user to retry)
+
+
+    int n;
+    int bottles;
+    do
+    {
+        n = get_int("minutes: ");
+        bottles = n * 12;
+
+    }
+    while (n < 0);   //do it in reverse as it is true and false
+
+    printf("minutes: %i\n", n);
+
+    printf("bottles: %i\n", bottles);
+
+}
+
+
+
+
 
 //step 1: prompt use to put in number of minutes
 //step 2: validate whether to the input is a number or alphabet
