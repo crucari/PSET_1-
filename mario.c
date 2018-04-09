@@ -11,12 +11,28 @@
 #include <cs50.h>  //nessesary for us to use CS50 library function
 int main(void)
 {
-     int n;
+    int n;
+
     do
     {
 
-        n = get_int("height: ");
-
+        n = get_int("enter height:");
     }
-    while (n < 0 < 23);
+    while
+    (n < 0 || n > 23);
+
+    for (int i = 0; i < n; i++)
+    {
+        for (int spaces = 0; spaces < (n - i - 1); spaces++)
+        {
+            printf(" ");
+        }
+
+        for (int hashes = 0; hashes < (i + 2); hashes++)
+        {
+            printf("#");
+        }
+
+        printf("\n");
+    }
 }
