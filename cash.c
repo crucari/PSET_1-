@@ -7,7 +7,7 @@
 //      -make sure the given value is positive
 //      -convert dollars to cents
 //     -make sure to round
-// 3) Make sur ehte largest coin possible is being used
+// 3) Make sure the largest coin possible is being used
 // 4) keep track of the coin being used
 //  -how many coins to be returned
 //  -amount to be returned
@@ -42,7 +42,7 @@ int main(void)
     {
         if (change - 25 >= 0)
         {
-            change = change - 25;
+            change = change - 25;   //Starting at quarters, then going through dimes, nickels, and pennies. We start with quarters to ensure the least amount of coins is used to give change back.
             coins++;
             continue;
 
@@ -77,7 +77,7 @@ int main(void)
 
     }
 
-    printf("%i\n", coins);
+    printf("%i\n", coins);   //prints final amount of coins
 
 
 
