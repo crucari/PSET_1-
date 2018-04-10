@@ -19,7 +19,7 @@ int main(void)
         n = get_int("enter height:");
     }
     while
-    (n < 0 || n > 23);
+    (n < 0 || n > 23);   //find out reason why it has to be opposite
 
     for (int i = 0; i < n; i++)
     {
