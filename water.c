@@ -13,7 +13,7 @@ int main(void)
     do
     {
         n = get_int("minutes: ");
-        bottles = n * 12;
+        bottles = n * 12;  //math
 
     }
     while (n < 0);   //do it in reverse as it is true and false
