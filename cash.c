@@ -26,7 +26,7 @@ int main(void)
     {
 
         printf("Change owed:");
-        input = get_float();
+        input = get_float();   //
         if (input == 0)
         {
             exit(0);
@@ -42,7 +42,8 @@ int main(void)
     {
         if (change - 25 >= 0)
         {
-            change = change - 25;   //Starting at quarters, then going through dimes, nickels, and pennies. We start with quarters to ensure the least amount of coins is used to give change back.
+            change = change - 25;   //Starting at quarters, then going through dimes, nickels, and pennies.
+                                    // We start with quarters to ensure the least amount of coins is used to give change back.
             coins++;
             continue;
 
