@@ -18,6 +18,7 @@ int main(void)
     }
     while (n < 0);   //do it in reverse as it is true and false
 
+    // ef  this line is not needed since the spec only asks for print of bottles once
     printf("minutes: %i\n", n);
 
     printf("bottles: %i\n", bottles);

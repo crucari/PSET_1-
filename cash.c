@@ -18,9 +18,12 @@
 #include <math.h> //must include math library for round function
 int main(void)
 {
-
+    // ef  I don't understand why subtracting one from the variables works here
+    // ef  when I change the float to 0, the program returns 0
+    // ef  when I change change to 0, it seems to work correctly
+    // ef  so while this solution works, I think there is a way to change the math to be simpler
     float input = -1;
-    int change = -1;
+    int change = -0;
 
     while (input < 0)
     {

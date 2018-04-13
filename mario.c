@@ -36,3 +36,5 @@ int main(void)
         printf("\n");
     }
 }
+
+// ef  this seems clean and efficient. The steps are clear and the answer works
