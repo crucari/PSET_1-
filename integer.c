@@ -18,3 +18,5 @@ printf("I have %i bottles of water\n", n);  //here we are using the placeholder 
 //2) valiadate the use input (making sure it is a positive interger using a while loop or do while loop)
 //3) Make the formula (1 min=12 bottles) Multipy x * 12
 //4) print equvalent number of bottles using a printf statement
+
+//exercise for water
